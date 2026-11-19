@@ -4,7 +4,7 @@ A Python-based simulation project that visualizes the parabolic motion of a proj
 
 This project demonstrates how different initial velocities and launch angles affect the trajectory of a projectile. It uses Python, NumPy, and Matplotlib to calculate and visualize projectile motion in real time.
 
-#**Project Overview**
+# **Project Overview**
 
 Projectile motion is a type of two-dimensional motion in which an object moves under the influence of gravity after being launched at an angle.
 
@@ -27,7 +27,7 @@ Calculate horizontal range.
 Real-time graph updates using Matplotlib.
 Multiple trajectory comparisons on the same graph.
 User-friendly terminal-based input system.
- **Physics and Mathematical Equations**
+# **Physics and Mathematical Equations**
 
 The simulation uses the standard equations of projectile motion, assuming:
 
@@ -65,7 +65,7 @@ y = u sin θ × t - (1/2)gt²
 
 These equations are used to calculate the projectile's position at different time intervals and generate its parabolic trajectory.
 
- #**Technologies Used**
+# **Technologies Used**
 Python – Main programming language.
 NumPy – Mathematical calculations and numerical operations.
 Matplotlib – Graph plotting and trajectory visualization.
@@ -117,7 +117,7 @@ Type done to finish the simulation.
 
 The program displays the calculated time of flight, maximum height, and horizontal range in the terminal.
 
-3 **Expected Output**
+# **Expected Output**
 
 The program generates two graphs:
 
@@ -141,7 +141,7 @@ Data visualization using Matplotlib.
 Interactive plotting and real-time graph updates.
 Taking user input and handling invalid inputs.
 Applying programming concepts to real-world physics problems.
- #**Future Improvements**
+# **Future Improvements**
 
 Some features that could be added in future versions:
 
