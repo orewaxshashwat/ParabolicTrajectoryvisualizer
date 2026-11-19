@@ -1,10 +1,10 @@
- **Parabolic Trajectory Visualizer**
+## **Parabolic Trajectory Visualizer**
 
 A Python-based simulation project that visualizes the parabolic motion of a projectile using mathematical equations and interactive graphs.
 
 This project demonstrates how different initial velocities and launch angles affect the trajectory of a projectile. It uses Python, NumPy, and Matplotlib to calculate and visualize projectile motion in real time.
 
-**Project Overview**
+#**Project Overview**
 
 Projectile motion is a type of two-dimensional motion in which an object moves under the influence of gravity after being launched at an angle.
 
@@ -17,7 +17,7 @@ Graph 2 – Effect of Angle: Keeps the initial velocity constant and changes the
 
 It also calculates important projectile motion parameters and displays them in the terminal.
 
- Features
+# **Features**
 Interactive projectile trajectory visualization.
 Analyze the effect of initial velocity on projectile motion.
 Analyze the effect of launch angle on projectile motion.
@@ -27,7 +27,7 @@ Calculate horizontal range.
 Real-time graph updates using Matplotlib.
 Multiple trajectory comparisons on the same graph.
 User-friendly terminal-based input system.
- Physics and Mathematical Equations
+ **Physics and Mathematical Equations**
 
 The simulation uses the standard equations of projectile motion, assuming:
 
@@ -65,7 +65,7 @@ y = u sin θ × t - (1/2)gt²
 
 These equations are used to calculate the projectile's position at different time intervals and generate its parabolic trajectory.
 
- **Technologies Used**
+ #**Technologies Used**
 Python – Main programming language.
 NumPy – Mathematical calculations and numerical operations.
 Matplotlib – Graph plotting and trajectory visualization.
@@ -77,7 +77,7 @@ Parabolic-Trajectory-Visualizer/
 ├── README.md        # Project documentation
 └── requirements.txt # Project dependencies
 
- Installation and Setup
+# Installation and Setup
 
 Follow these steps to run the project on your local machine.
 
@@ -103,7 +103,7 @@ Step 4: Run the Program
 bash
 python main.py
 
- How to Use
+# **How to Use**
 Graph 1: Effect of Velocity
 Enter a fixed launch angle in degrees.
 Enter different initial velocities in m/s.
@@ -117,7 +117,7 @@ Type done to finish the simulation.
 
 The program displays the calculated time of flight, maximum height, and horizontal range in the terminal.
 
- **Expected Output**
+3 **Expected Output**
 
 The program generates two graphs:
 
@@ -131,7 +131,7 @@ Multiple projectile trajectories are displayed for different launch angles while
 
 Both graphs update as new values are entered.
 
- **Learning Outcomes**
+ #**Learning Outcomes**
 Through this project, I explored:
 
 Fundamentals of projectile motion and classical mechanics.
@@ -141,7 +141,7 @@ Data visualization using Matplotlib.
 Interactive plotting and real-time graph updates.
 Taking user input and handling invalid inputs.
 Applying programming concepts to real-world physics problems.
- Future Improvements
+ #**Future Improvements**
 
 Some features that could be added in future versions:
 
