@@ -4,7 +4,7 @@ A Python-based simulation project that visualizes the parabolic motion of a proj
 
 This project demonstrates how different initial velocities and launch angles affect the trajectory of a projectile. It uses Python, NumPy, and Matplotlib to calculate and visualize projectile motion in real time.
 
-** Project Overview**
+**Project Overview**
 
 Projectile motion is a type of two-dimensional motion in which an object moves under the influence of gravity after being launched at an angle.
 
@@ -83,7 +83,7 @@ Follow these steps to run the project on your local machine.
 
 Step 1: Clone the Repository
 bash
-git clone https://github.com/your-username/Parabolic-Trajectory-Visualizer.git
+gh repo clone orewaxshashwat/ParabolicTrajectoryvisualizer
 
 Step 2: Navigate to the Project Directory
 bash
