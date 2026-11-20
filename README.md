@@ -1,4 +1,4 @@
-## **Parabolic Trajectory Visualizer**
+### **Parabolic Trajectory Visualizer**
 
 A Python-based simulation project that visualizes the parabolic motion of a projectile using mathematical equations and interactive graphs.
 
