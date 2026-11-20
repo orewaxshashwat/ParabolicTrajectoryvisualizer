@@ -79,3 +79,29 @@ plt.pause(0.1)
 print(f"\n{'u (m/s)':<10} {'Angle (deg)':<13} {'Time T (s)':<13} {'Max Height H (m)':<18} {'Range R (m)':<15}")
 print("-" * 70)
 
+while True:
+    val = input("Enter angle θ (degrees) [or type 'done' to finish]: ").strip().lower()
+    if val == 'done':
+        break
+    try:
+        angle = float(val)
+        x, y, T, H, R = simulate_projectile(u_fixed, angle)
+        print(f"{u_fixed:<10.1f} {angle:<13.1f} {T:<13.2f} {H:<18.2f} {R:<15.2f}")
+        
+        ax2.plot(x, y, label=f'θ = {angle}°')
+        
+        # Recalculate limits and autoscale both axes properly
+        ax2.relim()
+        ax2.autoscale(enable=True, axis='both')
+        ax2.set_xlim(left=0)
+        ax2.set_ylim(bottom=0)
+        ax2.legend()
+        
+        fig.canvas.draw()
+        plt.pause(0.1)
+    except ValueError:
+        print("Invalid input. Enter a number or 'done'.")
+
+print("\nSimulation complete. Close the plot window to exit.")
+plt.ioff()
+plt.show()
